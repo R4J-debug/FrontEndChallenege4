@@ -1,0 +1,148 @@
+body{
+    display:flex;
+    height:100vh;
+
+    background-color:hsl(30, 54%, 90%);
+    justify-content: center;
+    align-items:center;
+}
+
+.mainContainer{
+    display:flex;
+    flex-direction: column;
+    height:52rem;
+    width:26rem;
+    background-color: hsl(0, 0%, 100%);
+    border-radius:20px;
+}
+
+.list-title{
+    font-size: 14px;
+    margin-top:-1px
+}
+
+.omletteRecipie{
+    display:flex;
+    flex-direction: column;
+    height:46%;
+    width:100%;
+    gap:0px;
+    align-items: center;
+
+}
+
+.omletteRecipie img{
+
+    margin-top:20px;
+    padding:px;
+    height:40%;
+    width:90%;
+    border-radius: 12px;
+}
+
+.omletteRecipie h1{
+
+    width:80%;
+    text-align:left ;
+    font-weight: 555;
+    font-family: serif,sans-serif;
+    text-align:left;
+    font-size: 25px;
+    margin-bottom: 0;
+}
+
+.omletteRecipie p{
+
+    width:80%;
+    text-align:left ;
+    font-weight: 20;
+    font-family: serif,sans-serif;
+    font-size: 0.59rem;
+    color:hsl(30, 10%, 34%);
+
+}
+
+.omletteRecipie .list-container{
+    text-align:left;
+    width:80%;
+    margin-left:20px
+}
+
+.ingredients h1{
+    font-size:12px;
+}
+
+#prep-time{
+    color:hsl(30, 10%, 34%);
+    font-weight: 400;
+    text-align: left;
+
+}
+
+
+.ingredients{
+    
+    width:90%;
+    margin-left:30px;
+    color:hsl(32, 80%, 30%);
+    margin-top:2px;
+
+}
+
+.styled-list{
+    width:90%;
+  margin-left:-24px;
+  font-size:11.5px;
+
+}
+
+.stylized-line {
+    top:62%;
+    width: 23rem; /* Full width */
+    height: 1px; /* Thickness */
+    background: hsl(32, 72%, 86%);
+    margin: 20px 0; /* Adjust margin */
+}
+
+.instructions{
+    margin-top: -10px;
+}
+
+.nutrition{
+    width:100%;
+    padding:0px;
+    margin-top: -18px;
+    font-size: 12px;
+}
+
+.nutrition p{
+    margin-top:-14px;
+    width:100%;
+}
+
+table {
+    width: 100%;
+    margin-top: -5px;
+    text-align: left;
+    table-layout: fixed;
+    color: var(--wenge_brown);
+}
+
+td {
+    width: 50%;
+    padding: 4.5px 0;
+    border-bottom: 0.2px solid hsla(24, 5%, 18%,14%);
+}
+
+tr:last-of-type td {
+    border-bottom: none;
+}
+
+tr td:nth-of-type(1) {
+    padding-left: 2px;
+}
+
+tr td:nth-of-type(2) {
+    color: var(--nutmeg);
+    font-weight: 800;
+}
